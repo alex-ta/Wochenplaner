@@ -16,12 +16,12 @@
 
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-<script src="/web/js/RestClient.js"></script>
-<script src="/web/js/TableUsers.js"></script>
+<script src="/web-0.0.1-SNAPSHOT/js/RestClient.js"></script>
+<script src="/web-0.0.1-SNAPSHOT/js/TableUsers.js"></script>
 
 <script type="text/javascript">
-var userUrl = "/web/v1/users/";
-var entryUrl = "/web/v1/entry/";
+var userUrl = "/web-0.0.1-SNAPSHOT/v1/users/";
+var entryUrl = "/web-0.0.1-SNAPSHOT/v1/entry/";
 
 $(document).ready(function() {
 	var table = new TableWrapper(document.getElementById("content"));
